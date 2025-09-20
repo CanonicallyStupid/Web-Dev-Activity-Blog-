@@ -1,0 +1,75 @@
+body {
+  margin-left: 120px;
+  margin-right: 120px;
+  font-family: Lucida console, Courier New, monospace;
+}
+
+body {
+  background-image: url("miku_bunny.jpg");
+  background-size: 50%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #b2fff9;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #72f6ff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #b0edff;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff9c;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #000000;
+}
