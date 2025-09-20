@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background-image: url("miku_bunny.jpg");
+  background-image: url("assets/miku_bunny.jpg");
   background-size: 50%;
   background-position: right bottom;
   background-repeat: no-repeat;
