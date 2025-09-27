@@ -17,7 +17,7 @@ nav {
   justify-content: center;
   padding: 1rem;
   background-color: #b2fff9;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -30,7 +30,7 @@ nav a {
   cursor: pointer;
   transition: background-color 0.3s ease;
   justify-content: center;
-  margin: 0 15px;
+  margin: 0 5px;
 }
 
 nav a:hover {
